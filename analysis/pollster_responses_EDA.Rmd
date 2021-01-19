@@ -1,0 +1,29 @@
+---
+title: "Exploration of Pew Data Pollster Responsses"
+author: "Sun, Adam"
+date: "January 19, 2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(ggplot2)
+library(tidyverse)
+```
+
+### Data Explanation
+
+
+### Data Cleanup
+
+```{r}
+pollster_data = read.csv(
+  file = 'C:/Users/aclou/Documents/Projects/Pew_Data_Exploration/data/pollster_responses_2020_nov.csv', 
+  header = T)
+
+head(pollster_data)
+getwd()
+```
+
+### Data Initial Explortion
