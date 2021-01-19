@@ -1,0 +1,5 @@
+# Pew_Data_Exploration
+
+A [workflowr][] project.
+
+[workflowr]: https://github.com/jdblischak/workflowr
